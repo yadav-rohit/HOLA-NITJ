@@ -1,0 +1,65 @@
+@font-face { font-family: ObveronFont; src: url('ObveronFont.ttf'); }
+body{
+    margin-top: 0%;
+    background: url('teambk.jpg');
+    overflow-x: hidden; 
+    overflow-y: scroll;
+    text-align: center;
+    font-family: ObveronFont;
+    color:rgb(194, 12, 21);
+}
+.wall{
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    position: relative;
+    top: 80px;
+    float: left;
+    left: 80px;
+}
+
+.profile{
+    position: relative;
+    float: left;
+    height: 300px;
+    width: 180px;
+    background-color: rgb(0, 0, 0);
+    padding-left: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.profile.two:hover{
+    background: url('avt2af.png' );
+    background-size: auto;
+}
+.profile:hover{
+    z-index: +1;
+    box-shadow: -3px -3px 7px rgb(255, 251, 251), 3px 3px 5px rgba(64, 64, 65, 0.945);
+}
+.profile.one{
+    position: relative;
+    bottom: 100px;
+}
+.profile.three{
+    position: relative;
+    bottom: 100px;
+}
+.profile.two{
+    background: url('avt2.jpg');
+    background-repeat: no-repeat;
+}
+.profile.five{
+    position: relative;
+    bottom: 100px;
+}   
+#lg{
+    z-index: +1;
+    position: absolute;
+    top: 1%;
+    left: 40%;
+}
+#headdd{
+    position: relative;
+    font-size: 90px;
+    position: relative;
+}
