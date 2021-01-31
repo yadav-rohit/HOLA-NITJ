@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+/* body{background: url('backimg.svg');
+} */
+body{background-color: #ff9717;}
+
+/* #heading{font-family: 'Pacifico', cursive; */
+   #heading{font-family: 'Potta One', cursive;
+     text-align: center;
+     border-radius: 10px;
+     border-style: hidden;
+     background-color: rgb(135, 193, 245);
+     padding: 6px;
+     margin-right: 80%;
+     font-size: 47px;
+    }
+#pics{border-style: hidden;
+}
+#pic1{float: left;}
+#pic2{float: left;}
+#pic3{float: left;} 
+#pic4{float: left;} 
+#pic5{float: left;} 
+#pic6{float: right;} 
+#pic7{float: left;} 
+#pic8{float: left;} 
+#pic9{float: left;} 
+#pic10{float: left;}  
+#pic11{float: left;}
