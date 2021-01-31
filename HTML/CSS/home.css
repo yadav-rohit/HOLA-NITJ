@@ -3,14 +3,16 @@
 @font-face { font-family: Rounded; src: url('Rounded.ttf'); }
 @font-face { font-family: Camar; src: url('Camar.otf'); }
 @font-face { font-family: ObveronFont; src: url('ObveronFont.ttf'); }
-body{
+.bodies{
     margin: 0;
-    background: url('qqqq.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: camar;
     width:100vw;
     height: 100vh;
+  }
+  #bodiesone{
+    background: url('qqqq.jpg');
   }
   #bodyc{
     position: absolute;
@@ -86,26 +88,6 @@ body{
     padding-left: 10px;
     
   }
-  /*
-  .menu.home{
-    background-color: #4056A1;
-  }
-  .menu.ann{
-    background-color: #4056A1;
-  }
-  .menu.bk{
-    background-color: #4056A1;
-  }
-  .menu.gll{
-    background-color: #4056A1;
-  }
-  .menu.qa{
-    background-color: #4056A1;
-  } .menu.tm{
-    background-color: #4056A1;
-  }
-  */
-  /* unvisited link */
 a{
   text-decoration: none;
   color:inherit;
