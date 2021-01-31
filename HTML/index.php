@@ -6,6 +6,6 @@
     <body id="inin">
     </script>
         <?php include "navbar.html" ?>
-       <?php include "HOME.html " ?>
+        <?php include "HOME.html " ?>
 </body>
 </html>
