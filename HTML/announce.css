@@ -1,50 +1,44 @@
-body{background: url('backimg.svg');
-    }
-
-#back{
-    top: 200px;
-    width: 95%;
-    position: relative;
-    background-color: white;
-    height: 450px;
-    
-
-}
-#announce1{
-    box-shadow: 10px 10px 5px grey;
+#head{
+    background-image: url(backimg.svg);
     border-style: hidden;
-    background-color:  rgb(8, 116, 98);
+    height: 300px;
+
+}
+#ann{
+    font-size: 20px;
+    color: rgb(228, 224, 22);
+    border-style: hidden;
+    background-color: rgb(9, 9, 128);
+    float: right;
+    margin-top: 150px;
+    margin-right: 10px;
+    height: 300px;
+    width: 600px;
+    box-shadow: 10px 10px gray;
+}
+#bott{
+    background-color: rgb(230, 236, 225);
+    border-style: hidden;
+    height: 340px;
+}
+#ann2{
+    font-size: 20px;
+    color: rgb(22, 20, 22);
+    box-shadow: 10px 10px gray;
+    border-style: hidden;
+    background-color: rgb(13, 143, 148);
     float: left;
-    margin-top: 200px;
-    color: white;
-    margin-right: 100px;
-    height: 250px;
-    width: 550px;
-
+    width: 700px;
+    height: 324px;
 }
-#announce2{
-    box-shadow: 10px 10px 5px grey;
-      float: left;
-      border-style: hidden;
-      background-color:  rgb(18, 4, 37);
-      color: white;
-      margin-right: 800px;
-      height: 300px;
-      width: 550px;
-      margin-right: 40px;
-
-}
-#heading{
-    text-shadow: 2px 2px rgb(148, 22, 22) ;
-        border-style: hidden;
-         float: left;
-         margin-top: 50px;
-         font-size: 50px;
-         margin-left: 100px;
-         border-radius: 10px;
-      
+#let{
+    font-family: 'Knewave', cursive;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    float: right;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-right: 65px;
 }
 .siz{
-    font-size: 20px;
-   
+    font-size: 25px;
 }

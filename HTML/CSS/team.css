@@ -16,7 +16,7 @@ body{
     position: relative;
     top: 80px;
     float: left;
-    left: 80px;
+    left: 150px;
 }
 
 .profile{
@@ -25,12 +25,16 @@ body{
     height: 300px;
     width: 180px;
     background-color: rgb(0, 0, 0);
-    padding-left: 40px;
+    color: black;
     margin-left: 40px;
     border-radius: 10px;
 }
+.profile:hover{
+    z-index: +1;
+    width: 185px;
+}
 .profile.two:hover{
-    background: url('avt2af.png' );
+    content: ('hello');
     background-size: auto;
 }
 .profile:hover{

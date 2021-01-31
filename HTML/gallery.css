@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+/* body{background: url('backimg.svg');
+} */
+body{background-color: #ff9717;}
+
+/* #heading{font-family: 'Pacifico', cursive; */
+   #heading{font-family: 'Potta One', cursive;
+     text-align: center;
+     border-radius: 10px;
+     border-style: hidden;
+     background-color: rgb(135, 193, 245);
+     padding: 6px;
+     margin-right: 87%;
+     font-size: 47px;
+    }
+
+.ss { 
+    border: 3px slategrey;
+    overflow: hidden;
+    margin: auto;
+    top: 150px;
+    left: 30px;
+    position: relative;
+    background-size: cover; 
+    width: 70%; 
+    height: 600px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+
+
