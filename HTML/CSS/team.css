@@ -1,7 +1,7 @@
 @font-face { font-family: ObveronFont; src: url('ObveronFont.ttf'); }
 body{
     margin-top: 0%;
-    background: url('teambk.jpg');
+   
     overflow-x: hidden; 
     overflow-y: scroll;
     text-align: center;
