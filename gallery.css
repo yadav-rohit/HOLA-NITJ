@@ -17,7 +17,7 @@ body{background-color: #ff9717;}
     }
 #pics{border-style: hidden;
 }
-#pic1{float: left; align-content: center;}
+#pic1{float: left;}
 #pic2{float: left;}
 #pic3{float: left;} 
 #pic4{float: left;} 
