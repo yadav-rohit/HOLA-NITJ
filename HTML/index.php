@@ -2,6 +2,7 @@
 <html>
     <head></head>
     <body>
-        <?php include "HOME.html "?>
+        <?php include "navbar.html" ?>
+       <?php include "HOME.html " ?>
 </body>
 </html>
