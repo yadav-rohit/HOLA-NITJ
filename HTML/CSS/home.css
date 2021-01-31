@@ -3,13 +3,58 @@
 @font-face { font-family: Rounded; src: url('Rounded.ttf'); }
 @font-face { font-family: Camar; src: url('Camar.otf'); }
 @font-face { font-family: ObveronFont; src: url('ObveronFont.ttf'); }
-.bodies{
+body{
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: camar;
     width:100vw;
     height: 100vh;
+  }
+  #forumpage{
+    top: 20%;
+    left: 5%;
+    position: relative;
+    background-color: rgba(65, 60, 70, 0.945);
+    width: 90%;
+  }
+  .menu.home{
+      background-color: #4056A1;
+  }
+  .menu.ann{
+    background-color: #fcb733;
+  }
+  .menu.bk{
+    background-color:#f13c20;
+  }
+  .menu.gll{
+    background-color: #008f95;  
+  }
+  .menu.qa{
+    background-color: #eb6e80;
+  }
+  .menu.tm{
+    background-color: #D79922;
+  }
+  #qqqa{
+    background: url('qa.jpg');
+    background-size: cover;
+  }
+  #gala{
+    background-color: rgba(21, 20, 22, 0.945);
+  }
+  
+  #inin{
+    background: url('www.jpg');
+    background-size: cover;
+  }
+  #anbd{
+    background: url('an.jpg');
+    background-size: cover;
+  }
+  #lib{
+    background: url('lib.jpg');
+    background-size: cover;
   }
   #bodyc{
     position: absolute;
@@ -94,7 +139,6 @@ a{
     cursor: pointer;
     border-radius: 10%;
     color:#c0c5d3;
-    background-color:#006d8f;
     height: 50px;
     width: 171px;
     text-align: center;

@@ -1,12 +1,13 @@
 @font-face { font-family: ObveronFont; src: url('ObveronFont.ttf'); }
 body{
     margin-top: 0%;
-   
+   background: url('www.jpg');
     overflow-x: hidden; 
     overflow-y: scroll;
     text-align: center;
     font-family: ObveronFont;
     color:rgb(194, 12, 21);
+    background-size: cover;
 }
 .wall{
     align-items: center;

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body>
+    <head>
+    <link rel="stylesheet" type="text/css" href="CSS/home.css"> 
+    </head>
+    <body id="inin">
+    </script>
         <?php include "navbar.html" ?>
        <?php include "HOME.html " ?>
 </body>
